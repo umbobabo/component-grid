@@ -1,0 +1,14 @@
+/**
+ * Css grid variables
+ */
+
+:root {
+  --grid-gutter-s: .4rem;
+  --grid-gutter-m: .75rem;
+  --grid-gutter-l: 1.5rem;
+
+  --grid-spacing-s: .5em;
+  --grid-spacing-m: 1em;
+  --grid-spacing-l: 2em;
+}
+
