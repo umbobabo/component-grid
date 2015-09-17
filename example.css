@@ -4,12 +4,12 @@
     max-width: 600px;
     column-count: 2;
     text-align: justify;
-    column-gap: var(--gutter-m);
-    margin-left: var(--gutter-m);
+    column-gap: var(--grid-gutter-m);
+    margin-left: var(--grid-gutter-m);
 }
 
 .example-1 p {
-    margin: var(--vertical-margin-m) 0 0 0;
+    margin: var(--grid-spacing-sloth) 0 0 0;
 }
 .example-1 p:first-child {
     margin: 0;
@@ -19,14 +19,14 @@
     background: gray;
     overflow: hidden;
     width: 400px;
-    padding-left: var(--gutter-m);
-    padding-bottom: var(--vertical-margin-m);
-    margin: var(--vertical-margin-m) auto;
+    padding-left: var(--grid-gutter-m);
+    padding-bottom: var(--grid-spacing-sloth);
+    margin: var(--grid-spacing-sloth) auto;
 }
 
 .example-2 div {
     box-sizing: border-box;
-    padding: var(--vertical-margin-m) var(--gutter-m) 0 0;
+    padding: var(--grid-spacing-sloth) var(--grid-gutter-m) 0 0;
 }
 
 .example-2 .box2,
