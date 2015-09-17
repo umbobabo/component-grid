@@ -6,7 +6,7 @@ export default (
     <h1>Grid examples</h1>
     <h2>Using gutters for columns</h2>
 
-    <p>This is using a CSS `column-gap` value of width `var(--gutter-m)`</p>
+    <p>This is using a CSS `column-gap` value of width `var(--grid-gutter-m)`</p>
     <div className="example-1">
         <p>Bacon ipsum dolor amet pork belly ham ball tip strip steak kevin.
         Pastrami leberkas drumstick pork loin.
@@ -32,8 +32,8 @@ export default (
     </div>
 
     <p>The below boxes are separated horizontally by the value of
-    `var(--gutter-m)` and vertically by the value of
-    `var(--vertical-margin-m)`</p>
+    `var(--grid-gutter-m)` and vertically by the value of
+    `var(--grid-spacing-sloth)`</p>
     <div className="example-2">
         <div className="box1">
             <div style={lightbg}>

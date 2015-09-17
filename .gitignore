@@ -6,3 +6,4 @@ bundle.css
 assets/
 .DS_Store
 !karma.conf.js
+
