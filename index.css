@@ -7,12 +7,12 @@
   --grid-gutter-m: 2.222rem;
   --grid-gutter-l: 3.0rem;
 
-  --grid-spacing-s: 0.0666em;
-  --grid-spacing-sm: 0.714em;
-  --grid-spacing-m: 1em;
-  --grid-spacing-mml: 1.111em;
-  --grid-spacing-ml: 1.875em;
-  --grid-spacing-l: 2.5em;
-  --grid-spacing-xl: 3.889em;
+  --grid-spacing-mouse: 0.0666em;
+  --grid-spacing-hedgehog: 0.714em;
+  --grid-spacing-fox: 1em;
+  --grid-spacing-sloth: 1.111em;
+  --grid-spacing-donkey: 1.875em;
+  --grid-spacing-camel: 2.5em;
+  --grid-spacing-rhino: 3.889em;
 }
 
