@@ -33,7 +33,7 @@ export default (
 
     <p>The below boxes are separated horizontally by the value of
     `var(--grid-gutter-m)` and vertically by the value of
-    `var(--vertical-margin-m)`</p>
+    `var(--grid-spacing-sloth)`</p>
     <div className="example-2">
         <div className="box1">
             <div style={lightbg}>
