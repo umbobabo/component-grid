@@ -71,9 +71,6 @@
       },
       {
         "contents": "if(document.getElementById('mocha')){mocha.checkLeaks();mocha.run();}"
-      },
-      {
-        "contents": "    <script type=\"text/javascript\"> (function() { var path = '//easy.myfonts.net/v2/js?sid=207020(font-family=FF+Milo+Serif+Pro)&sid=207025(font-family=FF+Milo+Serif+Pro+Med+Italic)&sid=207029(font-family=FF+Milo+Serif+Pro+Bold)&key=ADKczqjSur', protocol = ('https:' ==document.location.protocol ? 'https:' : 'http:'), trial = document.createElement('script'); trial.type = 'text/javascript'; trial.async = true; trial.src = protocol + path; var head =document.getElementsByTagName(\"head\")[0]; head.appendChild(trial); })(); </script> <script type=\"text/javascript\"> (function() { var path ='//easy.myfonts.net/v2/js?sid=274518(font-family=Halifax+Regular)&sid=274519(font-family=Halifax+Light)&sid=274524(ont-family=Halifax+Bold)&key=LUwLgIpMrH', protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'), trial = document.createElement('script'); trial.type = 'text/javascript'; trial.async = true; trial.src = protocol + path; var head = document.getElementsByTagName(\"head\")[0]; head.appendChild(trial); })(); </script>"
       }
     ],
     "sections": [
@@ -109,7 +106,7 @@
   "scripts": {
     "ci": "./build.sh",
     "doc": "parallelshell 'npm run doc:html' 'npm run doc:js' 'npm run doc:css'",
-    "doc:css": "cat index.css example.css | cssnext --sourcemap > bundle.css",
+    "doc:css": "cssnext --sourcemap example.css bundle.css",
     "doc:css:watch": "npm run doc:css -- --watch",
     "doc:html": "devpack-doc index standalone",
     "doc:html:watch": "npm-watch",
@@ -131,7 +128,7 @@
     "react": "^0.13.3"
   },
   "devDependencies": {
-    "@economist/component-devpack": "3.1.7",
+    "@economist/component-devpack": "^3.3.0",
     "babel": "^5.8.23",
     "babelify": "^6.3.0",
     "browser-sync": "^2.8.2",
